@@ -1,0 +1,44 @@
+.shop-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-top: 40px;
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1);
+
+  @media (max-width: 768px) { grid-template-columns: 1fr; }
+}
+
+.info-grid {
+  display: grid;
+  gap: 20px;
+  .info-item strong { color: #3b82f6; font-size: 0.9rem; }
+  .info-item p { margin: 5px 0 0 0; font-size: 1.1rem; }
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  input, textarea {
+    padding: 12px;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    font-family: inherit;
+  }
+
+  button {
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+    &:hover { background: #1d4ed8; }
+  }
+}

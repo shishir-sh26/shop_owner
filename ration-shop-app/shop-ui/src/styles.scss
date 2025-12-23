@@ -1,0 +1,27 @@
+:root {
+  --primary: #2563eb;
+  --secondary: #1e293b;
+  --success: #10b981;
+  --bg: #f8fafc;
+  --card-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: var(--bg);
+  color: var(--secondary);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 20px;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 3px solid var(--primary);
+  display: inline-block;
+}

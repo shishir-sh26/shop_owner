@@ -1,0 +1,29 @@
+<div id="shop-info" class="shop-container">
+  <section class="details">
+    <h2>Shop Details</h2>
+    <div class="info-grid">
+      <div class="info-item">
+        <strong>Owner</strong>
+        <p>Mr. Rajesh Kumar</p>
+      </div>
+      <div class="info-item">
+        <strong>License No.</strong>
+        <p>RT-9920-X12</p>
+      </div>
+      <div class="info-item">
+        <strong>Operating Hours</strong>
+        <p>Mon - Sat: 9:00 AM - 8:00 PM</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-form">
+    <h2>Inquiry / Feedback</h2>
+    <form (submit)="$event.preventDefault()">
+      <input type="text" placeholder="Your Name">
+      <input type="email" placeholder="Email Address">
+      <textarea placeholder="Ask about stock availability..."></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+</div>
